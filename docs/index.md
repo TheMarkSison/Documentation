@@ -20,10 +20,10 @@ Create a new Django Project and Application.
 
 ```shell
 # Create a new Django Project in your current directory.
-django-admin startproject <Your_Project_Name> .
+django-admin startproject <PROJ_NAME> .
 
 # Create a Django Application.
-python manage.py createapp <Your_App_Name>
+python manage.py createapp <APP_NAME>
 ```
 
 Connecting to the Postgres Database using a `.env` file.
