@@ -1,3 +1,15 @@
-site_name: Hello, Docs.
+site_name: Documentation.
+site_url: https://themarksison.github.io/
 theme:
   name: material
+  features:
+    - content.code.copy
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
