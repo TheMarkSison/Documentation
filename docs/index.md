@@ -33,7 +33,7 @@ Connecting to the Postgres Database using a `.env` file.
 ```
 DB_NAME=<DB_NAME>
 DB_USER=<DB_USER>
-DB_PASSWORD=<DB_PASS>
+DB_PASS=<DB_PASS>
 DB_HOST=<DB_HOST>
 DB_PORT=<DB_POST>
 ```
